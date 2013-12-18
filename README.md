@@ -15,13 +15,11 @@ Requirements
 How to use
 =======================
 
-`ETSwipeCell` is a subclass of `UIScrollView` with `UIGestureRecognizer`.
+`ETSwipeCell` is a subclass of `UITableViewCell` with `UIGestureRecognizer`.
 
 Include the `ETSwipeCell.h` and `ETSwipeCell.m` in your project.
 
-To use  `ETSwipeCell`, you should create your own class with parent `ETSwipeCell`. Then in `initWithStyle` create your own user interface for cell. And in initializing method for this cell implement buttons and gesture behavior.
-
-In view controller class with UITableView ypu should use your own new cell.
+To use  `ETSwipeCell`, you should create your own class with parent `ETSwipeCell`. Then in `initWithStyle` create your own user interface for cell. And implement buttons and gesture behavior in initializing method.
 
 Example project included.
 
@@ -55,7 +53,7 @@ Support / Contact / Bugs / Features
 
 I can't promise to answer questions about how to use the code.
 
-If you want to submit a feature request or bug report, please use [GitHub's issue tracker for this project](https://github.com/EugeneTrapeznikov/ETFoursquareImages/issues).  Or preferably fork the code and implement the feature/fix yourself, then submit a pull request.
+If you want to submit a feature request or bug report, please use [GitHub's issue tracker for this project](https://github.com/EugeneTrapeznikov/ETSwipeCell/issues).  Or preferably fork the code and implement the feature/fix yourself, then submit a pull request.
 
 Enjoy!
 
