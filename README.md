@@ -1,7 +1,7 @@
 ETSwipeCell
 ===========
 
-UITableView's subclass with gestures. You can swipe over cell and see 1 or 2 buttons.
+UITableViewCell's subclass with gestures. You can swipe over cell and see 1 or 2 buttons.
 
 ![example](https://raw.github.com/EugeneTrapeznikov/ETSwipeCell/master/demo/demo.gif)
 
